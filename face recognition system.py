@@ -15,7 +15,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 import os.path
-from useless import*
+from gmail import*
 
 import pyttsx3
 
