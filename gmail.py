@@ -8,9 +8,9 @@ import os.path
 
 def maill():
 		
-	email= 'hirdeshj3005@gmail.com' #'jainhirdesh4@gmail.com'
-	password= '@hash12183061' #'hirdeshjain19'
-	sendto=	 'aarchij12001@gmail.com' #'hirdeshj3005@gmail.com'	#'jainhirdesh4@gmail.com' #input('enter email=')
+	email= 'hirdeshj3005@gmail.com' #'sj2000sonam@gmail.com'
+	password= '@hash12183061' #Enter your password
+	sendto=	 'aarchij12001@gmail.com'  #input('enter email=')
 	message= 'Dear sir  this is last person. Who try to acess your laptop' #input('enter message=')
 	sub= 'Urjent Check' #input('enter subject=')
 
