@@ -24,7 +24,7 @@ from small import tempp
 from os import listdir
 from os.path import isfile, join
 
-data_path = 'C:/Users/Hirdesh Jain/Desktop/jarvis/faces/'
+data_path = 'C:/Users/Sonam Jain/Desktop/jarvis/faces/'
 onlyfiles = [f for f in listdir(data_path) if isfile(join(data_path,f))]
 
 Training_Data, Labels = [], []
@@ -90,7 +90,7 @@ def speak(audio):
 
 #speak('good morning sir')
 
-face_classifier = cv2.CascadeClassifier('C:/Users/Hirdesh Jain/Desktop/jarvis/haarcascade_frontalface_default.xml')
+face_classifier = cv2.CascadeClassifier('C:/Users/Sonam Jain/Desktop/jarvis/haarcascade_frontalface_default.xml')
 
 def face_detector(img, size = 0.5):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
